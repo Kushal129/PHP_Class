@@ -1,0 +1,13 @@
+Write PHP application which manages product’s details using object-oriented concepts.
+The structure for creating a class is as follows.
+    1. Product with data members name, quantity, company, price per unit, type (like Camera, Laptop, Refrigerator).
+    2. Camera with data members lens type, mega pixel, memory capacity.
+    3. Laptop with data members RAM, Processor, Graphics card.
+    4. Refrigerator with data members Capacity, Star (like 2,3,4,5), Type (like single door, double door).
+    5. Create member functions as per requirements. Display method should be there in all classes.
+    6. Use access specifier as per requirements.
+The application should have following features:
+    • Take user input of a product’s details: name, quantity, company, price per unit, product type.
+    • As per the product type given, ask other details specific to that product.
+    • Display information of product in table format.
+    • Display total price for product. 
