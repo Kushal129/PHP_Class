@@ -77,18 +77,21 @@
                 }
 
                 echo "<tr>";
-                echo "<td>$name</td>";
-                echo "<td>$quantity</td>";
-                echo "<td>$company</td>";
-                echo "<td>$pricePerUnit</td>";
+                echo "<td>$Name</td>";
+                echo "<td>$Quantity</td>";
+                echo "<td>$Company</td>";
+                echo "<td>$Price_per_unit</td>";
                 echo "<td>$type</td>";
                 echo "<td>$details</td>";
                 echo "</tr>";
             }
             ?>
         </tbody>
-
     </table>
+    <form action="Product.php" method="get">
+        <button type="submit">Add New Record</button>
+    </form>
+
 </body>
 
 </html>
